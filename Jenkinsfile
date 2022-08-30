@@ -6,7 +6,7 @@ pipeline {
         stage ('Lint Check') {
             steps {
                 script {
-                    sample.info(Best)
+                    sample.info("Best")
                 }
             }
         }
