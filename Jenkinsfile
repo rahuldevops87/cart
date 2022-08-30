@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage ('Lint Check') {
-            Steps {
+            steps {
                 sh "echo Link Check running"
             }
         }
